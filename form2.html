@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign-in</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+    .img{
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .form{ 
+        border: 1px solid lightgray ;
+        border-radius: 4px;
+        padding: 15px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+        max-width: 500px;
+/* justify-content: center; */
+justify-content: space-evenly;
+align-content: center;
+/* position: absolute; */
+align-items: center;
+    }
+    section{
+        align-items: center;
+        margin-left: 400px;
+        margin-right: 400px;
+        font-family: arial;
+
+    }
+    label{
+        font-size: small;
+    }
+    ::placeholder{
+        font-size: small;
+    }
+   footer{
+    margin-top: 10px;
+    background-color: rgba(211, 211, 211, 0.068);
+    width: 100;
+    text-align: center;
+    padding: 30px;
+   }
+   footer span{
+    padding: 10px;
+
+   }
+   footer p{
+    text-align: center;
+    padding: 20px;
+   }
+</style>
+</head>
+<body>
+    <div class="img"> <img src="../../public/prjimages/amazon.png" width="90px" height="27px"></div>
+    <section>
+        <form class="form">
+            <h3>Creat account</h3>
+            <div class="mb-2">
+                <label  for="your-name"><b>Your name</b></label>
+                <div><input type="text" class="form-control" placeholder="First and last name" name="your-name"></div>
+            </div>
+            <div class="mb-2">
+                <label for="number"><b>Mobile number or email</b></label>
+                <div><input type="text" class="form-control" name="number"></div>
+            </div>
+            <div class="mb-2">
+                <label  for="Password"><b>Password</b></label>
+                <div><input type="password" class="form-control" placeholder="Atleast 6 characters" name="password"></div>
+            </div>
+            <div>
+                <font size="4px" color="blue"><span class="bi bi-info"></span></font><font size="1.5px">Password must be atleast 6 characters</font>
+            </div>
+            <div class="mb-2">
+                <label  for="re-Password"><b>Re-enter password</b></label>
+                <div><input type="password" class="form-control" placeholder="Atleast 6 characters" name="re-password"></div>
+            </div>
+            <div class="mb-2">
+                <button class="btn btn-warning w-100"><font size="2px">Continue</font></button>
+            </div>
+            <div>
+                <p>
+                    <font size="2px"> By creating an account, you agree to Amazon's<br> <font  color="blue">Conditions of Use</font> and <font  color="blue">Privacy Notice</font>.</font>
+         
+                 </p>
+                 <hr >
+                 <p>
+                     
+                     <font size="2px">Already have an account? <font color="blue">Sign in</font></font>
+                 <br>
+                     <font size="2px">Buying for work? <font color="blue">Create a free business account</font>
+                 </p>
+            </div>
+        </form>
+    </section>
+    
+    
+
+
+</body>
+
+
+
+<footer>
+    
+    <font color="blue" size="2px">
+        <span> Conditions of use</span>
+        <span>Privacy note</span>
+        <span>Help</span>
+    </font>
+    <p><font color="grey" size="1px">© 1996-2022, Amazon.com, Inc. or its affiliates</font></p>
+</footer>
+
+</html>
